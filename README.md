@@ -1,2 +1,2 @@
-# golang_base
+# gobase
 some base/utility classes for golang
