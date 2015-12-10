@@ -46,7 +46,8 @@ func setLogLevel(lvl string) {
 func init() {
 	logcfg, err := config.ParseConfig(configFile)
 	if err != nil {
-		log.Printf("%s logging config not found")
+		log.Printf("No logging config found -- using defaults")
+		setLogLevel("info")
 		return
 	}
 
