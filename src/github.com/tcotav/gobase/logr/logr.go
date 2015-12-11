@@ -3,7 +3,7 @@ package logr
 import (
 	"fmt"
 	"github.com/Sirupsen/logrus"
-	"github.com/tcotav/base/config"
+	"github.com/tcotav/gobase/config"
 	"os"
 	"runtime"
 )
