@@ -24,7 +24,6 @@ const Lerror = "error"
 func SetConfig(path string) {
 	configFile = path
 	log = logrus.New()
-	init()
 }
 
 func setLogLevel(lvl string) {
